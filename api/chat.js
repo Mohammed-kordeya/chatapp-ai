@@ -16,6 +16,7 @@ export default async function handler(req, res) {
 
     try {
 
+        console.log("KEY:", process.env.GROQ_API_KEY);
         const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
             method: "POST",
             headers: {
