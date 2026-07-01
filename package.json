@@ -1,7 +1,5 @@
 {
   "name": "chatapp-ai",
   "version": "1.0.0",
-  "dependencies": {
-    "@vercel/node": "^3.2.0"
-  }
+  "private": true
 }
